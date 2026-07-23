@@ -1,6 +1,3 @@
-/* ========================================
-   DESKTOP
-======================================== */
 
 @media (min-width: 1200px) {
 
@@ -70,9 +67,6 @@
 
 
 
-/* ========================================
-   LAPTOP
-======================================== */
 
 @media (max-width: 1199px) {
 
@@ -81,8 +75,7 @@
     }
 
 
-    /* OVERVIEW */
-
+    
     .overview-grid {
         grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
         gap: 36px;
@@ -106,8 +99,7 @@
     }
 
 
-    /* PROCESS */
-
+    
     .process-track {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         row-gap: 38px;
@@ -122,8 +114,7 @@
     }
 
 
-    /* ADVANTAGES */
-
+    
     .advantages-layout {
         grid-template-columns: minmax(0, 0.9fr) minmax(400px, 1.1fr);
         gap: 55px;
@@ -134,15 +125,13 @@
     }
 
 
-    /* FACILITIES GALLERY */
-
+    
     .facility-gallery-grid {
         grid-auto-rows: 290px;
     }
 
 
-    /* QUALITY & FOOD SAFETY */
-
+    
     .quality-standard {
         padding: 95px 0;
     }
@@ -161,8 +150,7 @@
     }
 
 
-    /* FACILITIES HERO */
-
+    
     .facility-hero {
         min-height: 680px;
     }
@@ -191,14 +179,10 @@
 }
 
 
-/* ========================================
-   TABLET
-======================================== */
 
 @media (max-width: 991px) {
 
-    /* OVERVIEW */
-
+    
     .overview-grid {
         grid-template-columns: 1fr;
         gap: 48px;
@@ -222,8 +206,7 @@
     }
 
 
-    /* PROCESS */
-
+    
     .process-header {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -244,8 +227,7 @@
     }
 
 
-    /* ADVANTAGES */
-
+    
     .advantages::before {
         display: none;
     }
@@ -269,8 +251,7 @@
     }
 
 
-    /* FACILITIES INTRO */
-
+    
     .facility-intro-grid {
         grid-template-columns: 1fr;
         gap: 28px;
@@ -282,8 +263,7 @@
     }
 
 
-    /* FACILITIES GALLERY */
-
+    
     .facility-gallery-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-auto-rows: auto;
@@ -303,8 +283,7 @@
     }
 
 
-    /* FACILITIES HERO */
-
+    
     .facility-hero {
         height: auto;
         min-height: 650px;
@@ -325,8 +304,7 @@
     }
 
 
-    /* QUALITY & FOOD SAFETY */
-
+    
     .quality-standard {
         padding: 85px 0;
     }
@@ -492,9 +470,6 @@ body.menu-open {
 
 
 
-/* ========================================
-   MOBILE
-======================================== */
 
 @media (max-width: 767px) {
 
@@ -503,8 +478,7 @@ body.menu-open {
     }
 
 
-    /* OVERVIEW */
-
+    
     .overview-grid {
         gap: 36px;
     }
@@ -547,8 +521,7 @@ body.menu-open {
     }
 
 
-    /* PROCESS */
-
+    
     .process-header {
         margin-bottom: 44px;
     }
@@ -602,8 +575,7 @@ body.menu-open {
     }
 
 
-    /* ADVANTAGES */
-
+    
     .advantages-layout {
         gap: 38px;
     }
@@ -658,15 +630,13 @@ body.menu-open {
     }
 
 
-    /* FACILITIES INTRO */
-
+    
     .facility-intro-heading h2 {
         font-size: clamp(2rem, 10vw, 2.8rem);
     }
 
 
-    /* FACILITIES GALLERY */
-
+    
     .facility-gallery-grid {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -697,8 +667,7 @@ body.menu-open {
     }
 
 
-    /* QUALITY & FOOD SAFETY */
-
+    
     .quality-standard {
         padding: 65px 0;
     }
@@ -735,8 +704,7 @@ body.menu-open {
     }
 
 
-    /* FACILITIES HERO */
-
+    
     .facility-hero {
         height: auto;
         min-height: 620px;
@@ -910,16 +878,10 @@ body.menu-open {
 
 
 
-/* ========================================
-   SMALL MOBILE
-======================================== */
 
 @media (max-width: 480px) {
 
-    /* ========================================
-       GLOBAL
-    ======================================== */
-
+    
     .container {
         width: 90%;
     }
@@ -929,10 +891,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       NAVBAR
-    ======================================== */
-
+    
     .navbar {
         min-height: 70px;
         gap: 14px;
@@ -993,10 +952,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       HOME HERO
-    ======================================== */
-
+    
     .hero {
         min-height: 100svh;
     }
@@ -1084,10 +1040,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       ABOUT PAGE HERO
-    ======================================== */
-
+    
     .page-hero {
         min-height: 610px;
     }
@@ -1145,10 +1098,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       ABOUT OVERVIEW
-    ======================================== */
-
+    
     .overview-grid {
         gap: 30px;
     }
@@ -1200,10 +1150,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       ABOUT PURPOSE
-    ======================================== */
-
+    
     .purpose {
         padding: 60px 0;
     }
@@ -1274,10 +1221,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       ABOUT PROCESS
-    ======================================== */
-
+    
     .process-header {
         margin-bottom: 34px;
     }
@@ -1326,10 +1270,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       ABOUT ADVANTAGES
-    ======================================== */
-
+    
     .advantages-layout {
         gap: 30px;
     }
@@ -1387,10 +1328,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       FACILITIES HERO
-    ======================================== */
-
+    
     .facility-hero {
         min-height: 580px;
 
@@ -1430,10 +1368,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       FACILITIES INTRO
-    ======================================== */
-
+    
     .facility-intro {
         padding: 60px 0;
     }
@@ -1451,10 +1386,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       FACILITIES GALLERY
-    ======================================== */
-
+    
     .facility-gallery-grid {
         gap: 14px;
     }
@@ -1479,10 +1411,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       FACILITY OVERVIEW
-    ======================================== */
-
+    
     .facility-overview {
         padding: 60px 0;
     }
@@ -1546,10 +1475,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       QUALITY AND FOOD SAFETY
-    ======================================== */
-
+    
     .quality-standard {
         padding: 60px 0;
     }
@@ -1586,10 +1512,7 @@ body.menu-open {
     }
 
 
-    /* ========================================
-       FACILITY LOGISTICS
-    ======================================== */
-
+    
     .facility-logistics {
         padding: 60px 0;
     }
@@ -1649,10 +1572,7 @@ body.menu-open {
 
         font-size: 0.9rem;
     }
-    /* ========================================
-       FACILITY CTA
-    ======================================== */
-
+    
     .facility-cta {
         min-height: 520px;
     }
@@ -1691,9 +1611,6 @@ body.menu-open {
 }
 
 
-/* ========================================
-   TABLET AND MOBILE NAVBAR
-======================================== */
 
 @media (max-width: 991px) {
 
@@ -1786,21 +1703,12 @@ body.menu-open {
 
 
 
-/* =========================================================
-   PRODUCTS AND SERVICES RESPONSIVE
-========================================================= */
 
 
-/* =========================================================
-   LAPTOP
-========================================================= */
 
 @media (max-width: 1199px) {
 
-    /* =========================
-       PRODUCTS
-    ========================= */
-
+    
     .products-hero {
         min-height: 700px;
     }
@@ -1855,10 +1763,7 @@ body.menu-open {
         min-height: 590px;
     }
 
-    /* =========================
-       SERVICES
-    ========================= */
-
+    
     .services-hero {
         min-height: 700px;
     }
@@ -1884,16 +1789,10 @@ body.menu-open {
 }
 
 
-/* =========================================================
-   TABLET
-========================================================= */
 
 @media (max-width: 991px) {
 
-    /* =========================
-       PRODUCTS HERO
-    ========================= */
-
+    
     .products-hero {
         min-height: 680px;
     }
@@ -1915,10 +1814,7 @@ body.menu-open {
         gap: 18px;
     }
 
-    /* =========================
-       PRODUCTS INTRO
-    ========================= */
-
+    
     .products-intro-grid {
         grid-template-columns: 1fr;
         align-items: start;
@@ -1938,10 +1834,7 @@ body.menu-open {
         padding-left: 24px;
     }
 
-    /* =========================
-       PRODUCT RANGE
-    ========================= */
-
+    
     .product-range-header {
         grid-template-columns: 1fr;
         align-items: start;
@@ -1966,10 +1859,7 @@ body.menu-open {
         padding: 30px 27px 32px;
     }
 
-    /* =========================
-       PRODUCT SHOWCASE
-    ========================= */
-
+    
     .product-showcase::before,
     .product-distribution::before,
     .services-process::before {
@@ -1999,10 +1889,7 @@ body.menu-open {
         width: min(100%, 760px);
     }
 
-    /* =========================
-       WHOLESALE
-    ========================= */
-
+    
     .product-wholesale-grid {
         grid-template-columns: 1fr;
 
@@ -2020,10 +1907,7 @@ body.menu-open {
         aspect-ratio: 16 / 10;
     }
 
-    /* =========================
-       PACKAGING AND QUALITY
-    ========================= */
-
+    
     .product-process-header {
         grid-template-columns: 1fr;
 
@@ -2039,10 +1923,7 @@ body.menu-open {
         height: 330px;
     }
 
-    /* =========================
-       PRODUCT CTA
-    ========================= */
-
+    
     .products-cta {
         min-height: 500px;
     }
@@ -2051,10 +1932,7 @@ body.menu-open {
         padding: 85px 0;
     }
 
-    /* =========================
-       SERVICES HERO
-    ========================= */
-
+    
     .services-hero {
         min-height: 680px;
     }
@@ -2076,10 +1954,7 @@ body.menu-open {
         gap: 18px;
     }
 
-    /* =========================
-       SERVICES INTRO
-    ========================= */
-
+    
     .services-intro-grid {
         grid-template-columns: 1fr;
         align-items: start;
@@ -2099,10 +1974,7 @@ body.menu-open {
         padding-left: 24px;
     }
 
-    /* =========================
-       SERVICES LIST
-    ========================= */
-
+    
     .services-list-header {
         grid-template-columns: 1fr;
 
@@ -2122,10 +1994,7 @@ body.menu-open {
         height: 310px;
     }
 
-    /* =========================
-       SERVICES SUPPORT
-    ========================= */
-
+    
     .services-support-grid {
         grid-template-columns: 1fr;
 
@@ -2143,10 +2012,7 @@ body.menu-open {
         aspect-ratio: 16 / 10;
     }
 
-    /* =========================
-       SERVICES CTA
-    ========================= */
-
+    
     .services-cta {
         min-height: 500px;
     }
@@ -2158,16 +2024,10 @@ body.menu-open {
 }
 
 
-/* =========================================================
-   MOBILE
-========================================================= */
 
 @media (max-width: 767px) {
 
-    /* =========================
-       PRODUCTS HERO
-    ========================= */
-
+    
     .products-hero {
         min-height: 650px;
     }
@@ -2227,10 +2087,7 @@ body.menu-open {
         width: 100%;
     }
 
-    /* =========================
-       PRODUCTS INTRO
-    ========================= */
-
+    
     .products-intro-grid {
         gap: 24px;
     }
@@ -2248,10 +2105,7 @@ body.menu-open {
         line-height: 1.75;
     }
 
-    /* =========================
-       PRODUCT RANGE
-    ========================= */
-
+    
     .product-range::before,
     .product-showcase::before {
         display: none;
@@ -2300,10 +2154,7 @@ body.menu-open {
         padding: 15px;
     }
 
-    /* =========================
-       PRODUCT SHOWCASE
-    ========================= */
-
+    
     .product-showcase-grid {
         gap: 35px;
     }
@@ -2350,10 +2201,7 @@ body.menu-open {
         height: 42px;
     }
 
-    /* =========================
-       WHOLESALE
-    ========================= */
-
+    
     .product-wholesale-grid {
         gap: 35px;
     }
@@ -2390,10 +2238,7 @@ body.menu-open {
         text-align: center;
     }
 
-    /* =========================
-       PACKAGING AND QUALITY
-    ========================= */
-
+    
     .product-process-header {
         margin-bottom: 36px;
     }
@@ -2422,10 +2267,7 @@ body.menu-open {
         padding: 27px 22px;
     }
 
-    /* =========================
-       DISTRIBUTION
-    ========================= */
-
+    
     .product-distribution-grid {
         gap: 35px;
     }
@@ -2452,10 +2294,7 @@ body.menu-open {
         font-size: 0.9rem;
     }
 
-    /* =========================
-       PRODUCTS CTA
-    ========================= */
-
+    
     .products-cta {
         min-height: 520px;
     }
@@ -2482,10 +2321,7 @@ body.menu-open {
         width: 100%;
     }
 
-    /* =========================
-       SERVICES HERO
-    ========================= */
-
+    
     .services-hero {
         min-height: 650px;
     }
@@ -2541,10 +2377,7 @@ body.menu-open {
         gap: 12px;
     }
 
-    /* =========================
-       SERVICES INTRO
-    ========================= */
-
+    
     .services-intro-grid {
         gap: 24px;
     }
@@ -2562,10 +2395,7 @@ body.menu-open {
         line-height: 1.75;
     }
 
-    /* =========================
-       SERVICE CARDS
-    ========================= */
-
+    
     .services-list::before {
         display: none;
     }
@@ -2610,10 +2440,7 @@ body.menu-open {
         font-size: 0.87rem;
     }
 
-    /* =========================
-       SERVICES PROCESS
-    ========================= */
-
+    
     .services-process-grid {
         gap: 35px;
     }
@@ -2651,10 +2478,7 @@ body.menu-open {
         height: 40px;
     }
 
-    /* =========================
-       SERVICES SUPPORT
-    ========================= */
-
+    
     .services-support-grid {
         gap: 35px;
     }
@@ -2689,10 +2513,7 @@ body.menu-open {
         padding: 16px;
     }
 
-    /* =========================
-       SERVICES CTA
-    ========================= */
-
+    
     .services-cta {
         min-height: 520px;
     }
@@ -2722,16 +2543,10 @@ body.menu-open {
 }
 
 
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
 
 @media (max-width: 480px) {
 
-    /* =========================
-       PRODUCTS HERO
-    ========================= */
-
+    
     .products-hero {
         min-height: 610px;
     }
@@ -2778,10 +2593,7 @@ body.menu-open {
         font-size: 0.64rem;
     }
 
-    /* =========================
-       PRODUCTS GENERAL
-    ========================= */
-
+    
     .products-intro-heading h2,
     .product-range-header h2,
     .product-showcase-content h2,
@@ -2858,10 +2670,7 @@ body.menu-open {
         gap: 12px;
     }
 
-    /* =========================
-       PRODUCTS CTA
-    ========================= */
-
+    
     .products-cta {
         min-height: 500px;
     }
@@ -2885,10 +2694,7 @@ body.menu-open {
         font-size: 0.8rem;
     }
 
-    /* =========================
-       SERVICES HERO
-    ========================= */
-
+    
     .services-hero {
         min-height: 610px;
     }
@@ -2935,10 +2741,7 @@ body.menu-open {
         font-size: 0.64rem;
     }
 
-    /* =========================
-       SERVICES GENERAL
-    ========================= */
-
+    
     .services-intro-heading h2,
     .services-list-header h2,
     .services-process-content h2,
@@ -2996,10 +2799,7 @@ body.menu-open {
         bottom: 12px;
     }
 
-    /* =========================
-       SERVICES CTA
-    ========================= */
-
+    
     .services-cta {
         min-height: 500px;
     }
@@ -3025,20 +2825,12 @@ body.menu-open {
 
 }
 
-/* ========================================
-   CONTACT PAGE RESPONSIVE
-======================================== */
 
 
-/* ========================================
-   LAPTOP
-   MAX-WIDTH: 1199PX
-======================================== */
 
 @media (max-width: 1199px) {
 
-    /* CONTACT HERO */
-
+    
     .contact-hero {
         min-height: 700px;
     }
@@ -3065,8 +2857,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT MAIN */
-
+    
     .contact-main-grid {
         grid-template-columns:
             minmax(330px, 0.85fr)
@@ -3088,8 +2879,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT LOCATION */
-
+    
     .contact-location-grid {
         grid-template-columns:
             minmax(0, 1fr)
@@ -3107,8 +2897,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT INQUIRIES */
-
+    
     .contact-inquiries-header {
         gap: 50px;
     }
@@ -3124,8 +2913,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT CTA */
-
+    
     .contact-cta {
         min-height: 500px;
     }
@@ -3143,15 +2931,10 @@ body.menu-open {
 }
 
 
-/* ========================================
-   TABLET
-   MAX-WIDTH: 991PX
-======================================== */
 
 @media (max-width: 991px) {
 
-    /* CONTACT HERO */
-
+    
     .contact-hero {
         min-height: auto;
     }
@@ -3214,8 +2997,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT MAIN */
-
+    
     .contact-main::before {
         display: none;
     }
@@ -3268,8 +3050,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT LOCATION */
-
+    
     .contact-location::before {
         display: none;
     }
@@ -3324,8 +3105,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT INQUIRIES */
-
+    
     .contact-inquiries-header {
         grid-template-columns: 1fr;
 
@@ -3355,8 +3135,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT CTA */
-
+    
     .contact-cta {
         min-height: auto;
     }
@@ -3390,15 +3169,10 @@ body.menu-open {
 }
 
 
-/* ========================================
-   MOBILE
-   MAX-WIDTH: 767PX
-======================================== */
 
 @media (max-width: 767px) {
 
-    /* CONTACT HERO */
-
+    
     .contact-hero-background img {
         object-position: 68% center;
     }
@@ -3477,8 +3251,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT MAIN */
-
+    
     .contact-main-grid {
         gap: 45px;
     }
@@ -3540,8 +3313,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT FORM */
-
+    
     .contact-form-wrapper {
         padding: 28px 22px;
 
@@ -3600,8 +3372,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT LOCATION */
-
+    
     .contact-location-grid {
         gap: 42px;
     }
@@ -3663,8 +3434,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT INQUIRIES */
-
+    
     .contact-inquiries-header {
         gap: 17px;
 
@@ -3705,8 +3475,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT CTA */
-
+    
     .contact-cta-background img {
         object-position: 70% center;
     }
@@ -3770,15 +3539,10 @@ body.menu-open {
 }
 
 
-/* ========================================
-   SMALL MOBILE
-   MAX-WIDTH: 480PX
-======================================== */
 
 @media (max-width: 480px) {
 
-    /* CONTACT HERO */
-
+    
     .contact-hero-content {
         padding-top: 120px;
         padding-bottom: 52px;
@@ -3824,8 +3588,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT INFORMATION */
-
+    
     .contact-information h2 {
         font-size: clamp(1.85rem, 10vw, 2.55rem);
     }
@@ -3873,8 +3636,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT FORM */
-
+    
     .contact-form-wrapper {
         padding: 23px 17px;
 
@@ -3930,8 +3692,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT LOCATION */
-
+    
     .contact-location-visual {
         aspect-ratio: 1 / 1;
     }
@@ -3988,8 +3749,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT INQUIRIES */
-
+    
     .contact-inquiries-header h2 {
         font-size: clamp(1.85rem, 10vw, 2.55rem);
     }
@@ -4018,8 +3778,7 @@ body.menu-open {
     }
 
 
-    /* CONTACT CTA */
-
+    
     .contact-cta-content {
         padding: 62px 0;
     }

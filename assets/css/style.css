@@ -1,8 +1,5 @@
-/* PureCane Panay */
 
-/* ivyTurtle */
 
-/* reset */
 
 * {
     margin: 0;
@@ -36,12 +33,10 @@ ul {
     list-style: none;
 }
 
-/* variables */
 
 :root {
 
-    /* colors */
-
+    
     --primary: #184A8C;
     --primary-dark: #0F2747;
 
@@ -52,27 +47,22 @@ ul {
     --text: #2F3E4D;
     --border: #E8EDF3;
 
-    /* container */
-
+    
     --container-width: 1320px;
 
-    /* radius */
-
+    
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 18px;
 
-    /* shadow */
-
+    
     --shadow: 0 10px 30px rgba(0,0,0,.08);
 
-    /* transition */
-
+    
     --transition: .3s ease;
 
 }
 
-/* base */
 
 .container {
     width: min(90%, var(--container-width));
@@ -83,7 +73,6 @@ ul {
     padding: 100px 0;
 }
 
-/* buttons */
 
 .btn-primary {
     display: inline-flex;
@@ -129,7 +118,6 @@ ul {
     color: var(--primary);
 }
 
-/* header */
 
 .header {
     position: fixed;
@@ -163,7 +151,6 @@ ul {
     -webkit-backdrop-filter: blur(18px);
 }
 
-/* navbar */
 
 .navbar {
     min-height: 88px;
@@ -175,7 +162,6 @@ ul {
     gap: 40px;
 }
 
-/* logo */
 
 .logo {
     position: relative;
@@ -200,7 +186,6 @@ ul {
     height: auto;
 }
 
-/* navigation */
 
 .nav-menu {
     display: flex;
@@ -267,7 +252,6 @@ ul {
     transform: scaleX(1);
 }
 
-/* navbar actions */
 
 .navbar-actions {
     display: flex;
@@ -325,7 +309,6 @@ ul {
     transform: translate(2px, -2px);
 }
 
-/* menu toggle */
 
 .menu-toggle {
     display: none;
@@ -356,7 +339,6 @@ ul {
     transition: var(--transition);
 }
 
-/* hero */
 .hero {
     position: relative;
 
@@ -617,7 +599,6 @@ ul {
     transform: translateY(3px);
 }
 
-/* about */
 .overview {
     position: relative;
 
@@ -653,7 +634,6 @@ ul {
     gap: 56px;
 }
 
-/* page hero */
 
 .page-hero {
     position: relative;
@@ -859,7 +839,6 @@ ul {
     color: var(--white);
 }
 
-/* overview visual */
 
 .overview-visual {
     position: relative;
@@ -927,7 +906,6 @@ ul {
     line-height: 1.6;
 }
 
-/* overview content */
 
 .section-label {
     display: inline-flex;
@@ -1110,7 +1088,6 @@ ul {
     color: var(--primary-dark);
 }
 
-/* purpose */
 
 .purpose {
     position: relative;
@@ -1223,8 +1200,7 @@ ul {
 .purpose-content{
     display:flex;
     flex-direction:column;
-    justify-content:center;   /* <-- ito */
-    align-items:flex-start;
+    justify-content:center;       align-items:flex-start;
 
     padding:60px;
 }
@@ -1282,7 +1258,6 @@ ul {
     font-size: .96rem;
     line-height: 1.85;
 }
-/* process */
 
 .process {
     position: relative;
@@ -1591,7 +1566,6 @@ ul {
     transform: translate(3px, -3px);
 }
 
-/* advantages */
 
 .advantages {
     position: relative;
@@ -1905,15 +1879,8 @@ ul {
 .advantages-link:hover i {
     transform: translate(3px, -3px);
 }
-/* products */
-/* ========================================
-   PRODUCTS PAGE
-======================================== */
 
 
-/* ========================================
-   PRODUCTS HERO
-======================================== */
 
 .products-hero {
     position: relative;
@@ -2149,9 +2116,6 @@ ul {
 }
 
 
-/* ========================================
-   PRODUCTS INTRO
-======================================== */
 
 .products-intro {
     position: relative;
@@ -2227,9 +2191,6 @@ ul {
 }
 
 
-/* ========================================
-   PRODUCT RANGE
-======================================== */
 
 .product-range {
     position: relative;
@@ -2500,9 +2461,6 @@ ul {
 }
 
 
-/* ========================================
-   PRODUCT SHOWCASE
-======================================== */
 
 .product-showcase {
     position: relative;
@@ -2727,9 +2685,6 @@ ul {
 }
 
 
-/* ========================================
-   WHOLESALE SUPPLY
-======================================== */
 
 .product-wholesale {
     position: relative;
@@ -2956,9 +2911,6 @@ ul {
 }
 
 
-/* ========================================
-   PACKAGING AND QUALITY
-======================================== */
 
 .product-process {
     background: #f3f6fa;
@@ -3121,9 +3073,6 @@ ul {
 }
 
 
-/* ========================================
-   PRODUCT DISTRIBUTION
-======================================== */
 
 .product-distribution {
     position: relative;
@@ -3323,9 +3272,6 @@ ul {
 }
 
 
-/* ========================================
-   PRODUCTS CTA
-======================================== */
 
 .products-cta {
     position: relative;
@@ -3518,16 +3464,9 @@ ul {
 
 
 
-/* services */
-
-/* ========================================
-   SERVICES PAGE
-======================================== */
 
 
-/* ========================================
-   SERVICES HERO
-======================================== */
+
 
 .services-hero {
     position: relative;
@@ -3761,9 +3700,6 @@ ul {
 }
 
 
-/* ========================================
-   SERVICES INTRO
-======================================== */
 
 .services-intro {
     position: relative;
@@ -3835,9 +3771,6 @@ ul {
 }
 
 
-/* ========================================
-   SERVICE CARDS
-======================================== */
 
 .services-list {
     position: relative;
@@ -4087,9 +4020,6 @@ ul {
 }
 
 
-/* ========================================
-   SERVICE PROCESS
-======================================== */
 
 .services-process {
     position: relative;
@@ -4286,9 +4216,6 @@ ul {
 }
 
 
-/* ========================================
-   CLIENT SUPPORT
-======================================== */
 
 .services-support {
     position: relative;
@@ -4477,9 +4404,6 @@ ul {
 }
 
 
-/* ========================================
-   SERVICES CTA
-======================================== */
 
 .services-cta {
     position: relative;
@@ -4657,9 +4581,6 @@ ul {
 }
 
 
-/* ========================================
-   FACILITY HERO
-======================================== */
 
 .facility-hero {
     position: relative;
@@ -4722,8 +4643,7 @@ ul {
     position: relative;
     z-index: 3;
 
-    /* HUWAG LAGYAN NG width: 100% */
-}
+    }
 
 .facility-hero-content {
     max-width: 760px;
@@ -4845,9 +4765,6 @@ ul {
 }
 
 
-/* ========================================
-   FACILITY INTRODUCTION
-======================================== */
 
 .facility-intro {
     position: relative;
@@ -4944,9 +4861,6 @@ ul {
 }
 
 
-/* ========================================
-   FACILITY GALLERY
-======================================== */
 
 .facility-gallery {
     position: relative;
@@ -5135,9 +5049,6 @@ ul {
 }
 
 
-/* ========================================
-   QUALITY STANDARDS
-======================================== */
 
 .quality-standard {
     position: relative;
@@ -5324,9 +5235,6 @@ ul {
 
     transform: scale(1.08);
 }
-/*======================================
-FACILITY OVERVIEW
-======================================*/
 
 .facility-overview{
 
@@ -5491,9 +5399,6 @@ line-height:1.7;
 color:#6d7c8f;
 
 }
-/* ========================================
-   FACILITY LOGISTICS
-======================================== */
 
 .facility-logistics {
     position: relative;
@@ -5722,9 +5627,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   FACILITY CTA
-======================================== */
 
 .facility-cta {
     position: relative;
@@ -5923,17 +5825,10 @@ color:#6d7c8f;
 
 
 
-/* contact */
 
 
-/* ========================================
-   CONTACT PAGE
-======================================== */
 
 
-/* ========================================
-   CONTACT HERO
-======================================== */
 
 .contact-hero {
     position: relative;
@@ -6167,9 +6062,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   CONTACT MAIN
-======================================== */
 
 .contact-main {
     position: relative;
@@ -6206,9 +6098,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   CONTACT INFORMATION
-======================================== */
 
 .contact-information h2 {
     max-width: 590px;
@@ -6410,9 +6299,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   CONTACT FORM
-======================================== */
 
 .contact-form-wrapper {
     padding: clamp(35px, 4vw, 58px);
@@ -6605,9 +6491,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   CONTACT LOCATION
-======================================== */
 
 .contact-location {
     position: relative;
@@ -6804,9 +6687,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   CONTACT INQUIRIES
-======================================== */
 
 .contact-inquiries {
     position: relative;
@@ -6946,9 +6826,6 @@ color:#6d7c8f;
 }
 
 
-/* ========================================
-   CONTACT CTA
-======================================== */
 
 .contact-cta {
     position: relative;
@@ -7125,9 +7002,6 @@ color:#6d7c8f;
     transform: translateY(-3px);
 }
 
-/* ========================================
-   CONTACT FORM STATUS
-======================================== */
 
 .contact-form-status {
     display: none;
